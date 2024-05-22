@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "RocknRoll";
+    src: url("../fonts/RocknRollOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "RocknRoll";
+}
+body {
+    background-image: url("../img/1.png");
+    
+}
+#wrap {
+    width: 99%;
+    margin-top: 25px;
+}
+#header {
+    width: 96%;
+    background-color: #144028;
+    text-align: center;
+    height: 170px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+#header h1 {
+    line-height: 130px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    font-size: 55px;
+}
+#image img{
+    width: 15%;
+    float: right;
+    margin-right: 1.5%;
+}
+#menu-container {
+    width: 100%;
+    height: 40px;
+    background-color: #217a46;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#menu ul {
+    list-style: none;
+    border-top: 1px solid black;
+}
+hr {
+    display: none;
+    width: 93%;
+    border: 1px solid black;
+}
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    letter-spacing: 1px;
+    padding: 7.5px;
+    margin-right: 20px;
+    margin-left: 65px;
+    font-size: 16.5px;
+    color: white;
+}
+#menu ul li:hover a {
+    background-color: #144028;
+    color: white;
+}
+#contenido {
+    width: 96%;
+    min-height: 600px;
+    background-color: #effaf2;
+}
+#footer {
+    width: 95%;
+    height: 500px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+#footer #vendedor {
+    width: 28%;
+    height: 0%;
+    margin-top: 55px;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+#footer #imagen {
+    width: 95%;
+    height: 10px;
+}
+
+#footer #imagen img {
+    float: left;
+    width: 25%;
+    height: 270px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#empresa {
+    width: 30%;
+    float: right;
+    margin-right: 50px;
+    line-height: 50px;
+}
+#empresa #dir {
+    font-size: 15px;
+}
+
+#empresa p {
+    font-size: 20px;
+}
+
+#empresa small {
+}
+
+#vendedor img {
+    width: 15%;
+    margin-top: 20px;
+    transition: all 300ms;
+}
+#vendedor img:hover {
+    transform: scale(1.1);
+}
+.carousel {
+    width: auto;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: contain;
+    margin-top: 70px;      
+    
+}
+.carousel-indicators button {
+    transform: translateY(70px);
+}
